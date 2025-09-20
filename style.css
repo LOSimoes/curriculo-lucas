@@ -19,9 +19,19 @@ h1 {
   margin-bottom: 0.2em;
 }
 
+h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 0.2em 0;
+}
+
 h2 {
   color: #2d6cdf;
   margin-top: 2em;
+}
+
+.section > h2:first-of-type {
+  margin-top: 0;
 }
 
 a {
@@ -37,6 +47,20 @@ ul {
   padding-left: 1.2em;
 }
 
+.job, .education-item {
+  margin-bottom: 1.5em;
+}
+
+.job:last-of-type, .education-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.period {
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+  color: #555;
+}
+
 .contato {
   margin-bottom: 1.5em;
 }
@@ -49,6 +73,9 @@ ul {
   font-size: 0.98em;
   color: #555;
 }
+.projeto p {
+  margin: 0.3em 0;
+}
 
 .section {
   margin-bottom: 2em;
@@ -60,5 +87,8 @@ ul {
   }
   h1 {
     font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.05em;
   }
 }
